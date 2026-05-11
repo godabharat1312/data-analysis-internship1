@@ -1,0 +1,9 @@
+# Data Dictionary
+
+| Column Name | Description |
+|-------------|-------------|
+| ORDERNUMBER | Unique order number |
+| QUANTITYORDERED | Number of products ordered |
+| PRICEEACH | Price of each product |
+| SALES | Total sales amount |
+| STATUS | Order status |
