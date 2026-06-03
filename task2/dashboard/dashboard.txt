@@ -1,0 +1,18 @@
+SALES ANALYSIS DASHBOARD
+
+1. Sales Distribution
+   - Shows how sales values are distributed.
+   - Most sales are concentrated within a specific range.
+
+2. Top Countries by Sales
+   - Identifies countries contributing the highest revenue.
+   - Helps understand geographical performance.
+
+3. Correlation Heatmap
+   - Shows relationships between numerical variables.
+   - Helps identify factors affecting sales.
+
+KEY INSIGHTS
+- Sales are concentrated among a few countries.
+- Some variables show strong positive correlations.
+- Product and sales patterns can be identified through EDA.

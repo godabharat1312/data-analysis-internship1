@@ -1,0 +1,30 @@
+-- Task 2: SQL Business Analysis Queries
+
+-- 1. Top 5 Countries by Sales
+SELECT country, SUM(sales) AS total_sales
+FROM sales_data
+GROUP BY country
+ORDER BY total_sales DESC
+LIMIT 5;
+
+-- 2. Total Orders by Status
+SELECT status, COUNT(*) AS total_orders
+FROM sales_data
+GROUP BY status;
+
+-- 3. Top Product Lines by Sales
+SELECT productline, SUM(sales) AS total_sales
+FROM sales_data
+GROUP BY productline
+ORDER BY total_sales DESC;
+
+-- 4. Year-wise Sales Trend
+SELECT year_id, SUM(sales) AS total_sales
+FROM sales_data
+GROUP BY year_id
+ORDER BY year_id;
+
+-- 5. Average Sales by Deal Size
+SELECT dealsize, AVG(sales) AS avg_sales
+FROM sales_data
+GROUP BY dealsize;
